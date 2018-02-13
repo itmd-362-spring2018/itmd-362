@@ -220,7 +220,7 @@ html {
 }
 
 body {
-  padding-top: 0.75em;
+  padding-top: 1.1875em;
   font-size: 1.1875em;          /* ~ 19px base font size */
   line-height: 1.2631578947em;  /* ~ 24px base line height */
 }
@@ -240,4 +240,48 @@ h1 {
   -webkit-box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
   -moz-box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
   box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
+}
+
+
+input[type="text"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+input[type="time"],
+input[type="url"],
+input[type="password"],
+textarea,
+select
+{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  display: block;
+  outline: none;
+  border: none;
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  padding: 0;
+  font-family: Georgia, serif;
+}
+
+input[type="submit"],
+input[type="button"]{
+  background: #2471FF;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-bottom: 3px solid #5994FF;
+  border-radius: 5px;
+  color: #D2E2FF;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover{
+  background: #6B9FFF;
+  color:#fff;
 }
