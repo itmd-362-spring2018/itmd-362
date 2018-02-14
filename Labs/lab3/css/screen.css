@@ -334,4 +334,29 @@ input[type="button"]:hover{
 
 /* ===== MODULAR STYLES ===== */
 
+@media screen and (min-width: 640px) {
+
+  #content {
+    align-content: flex-start;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+}
+
 /* ===== STATE STYLES ======= */
+
+@media screen and (min-width: 860px) {
+
+  #content {
+    align-content: flex-start;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+
+  input[type="submit"],
+  input[type="button"]{
+    width: 30%;
+  }
+
+}
