@@ -255,6 +255,7 @@ input[type="password"],
 textarea,
 select
 {
+  width: calc(100% - 1em);
   outline: none;
   border: none;
   background-color: #333;
@@ -262,7 +263,7 @@ select
   border-radius: 2em;
   height: 1.2em;
   line-height: 1.2em;
-  padding: 1em;
+  padding: 0.5em;
   font-family: Georgia, serif;
 }
 
