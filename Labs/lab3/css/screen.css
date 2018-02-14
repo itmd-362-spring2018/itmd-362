@@ -206,6 +206,7 @@ label {
 
 html {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  background-color: #222;
 }
 
 body {
@@ -235,9 +236,10 @@ ol li:last-of-type {
   justify-content: center;
   align-content: center;
   margin: 1em 0 auto auto;
-  -webkit-box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
-  -moz-box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
-  box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
+  background-color: #FFF;
+  -webkit-box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.9);
+  -moz-box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.9);
+  box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.9);
 }
 
 input[type="text"],
@@ -253,8 +255,6 @@ input[type="password"],
 textarea,
 select
 {
-  width: 100%;
-  display: block;
   outline: none;
   border: none;
   background-color: #333;
