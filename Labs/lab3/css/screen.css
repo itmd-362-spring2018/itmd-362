@@ -204,6 +204,10 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+html {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
