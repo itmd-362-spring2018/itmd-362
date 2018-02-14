@@ -228,6 +228,7 @@ body {
 h1 {
   font-weight: bold;
   font-size: 2em;
+  line-height: 2em;
 }
 
 #personalDataForm {
@@ -236,7 +237,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin: 0.75em 0 auto auto;
+  margin: 1em 0 auto auto;
   -webkit-box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
   -moz-box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
   box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
@@ -262,11 +263,11 @@ select
   width: 100%;
   display: block;
   outline: none;
-  border: none;
+  border: solid black 0.2em;
   height: 25px;
   line-height: 25px;
   font-size: 16px;
-  padding: 0;
+  padding: 1em;
   font-family: Georgia, serif;
 }
 
@@ -284,4 +285,21 @@ input[type="submit"]:hover,
 input[type="button"]:hover{
   background: #6B9FFF;
   color:#fff;
+}
+
+/* ===== STATE STYLES ======= */
+
+@media screen and (min-width: 860px) {
+
+  #personalDataForm {
+    align-content: flex-start;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+
+  input[type="submit"],
+  input[type="button"]{
+    width: 20%;
+  }
+
 }
