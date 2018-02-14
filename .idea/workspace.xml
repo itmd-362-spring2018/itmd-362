@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="201819a6-66ea-40bf-8b57-86b500ec69e9" name="Default" comment="" />
+    <list default="true" id="201819a6-66ea-40bf-8b57-86b500ec69e9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/labs/lab3/css/screen.css" afterPath="$PROJECT_DIR$/labs/lab3/css/screen.css" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -71,8 +73,8 @@
       <file leaf-file-name="screen.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/labs/lab3/css/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="207" column="23" lean-forward="false" selection-start-line="207" selection-start-column="23" selection-end-line="207" selection-end-column="23" />
+            <state relative-caret-position="620">
+              <caret line="229" column="1" lean-forward="false" selection-start-line="229" selection-start-column="1" selection-end-line="229" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -91,8 +93,8 @@
       <file leaf-file-name="screen.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/labs/lab2/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3082">
-              <caret line="237" column="18" lean-forward="false" selection-start-line="237" selection-start-column="18" selection-end-line="237" selection-end-column="18" />
+            <state relative-caret-position="93">
+              <caret line="226" column="0" lean-forward="true" selection-start-line="226" selection-start-column="0" selection-end-line="239" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -291,12 +293,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518555670976</updated>
-      <workItem from="1518555672240" duration="6788000" />
+      <workItem from="1518555672240" duration="7088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6788000" />
+    <option name="totallyTimeSpent" value="7088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -463,25 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3082">
-          <caret line="237" column="18" lean-forward="false" selection-start-line="237" selection-start-column="18" selection-end-line="237" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/labs/lab1/lab1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -506,10 +489,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab2/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="226" column="0" lean-forward="true" selection-start-line="226" selection-start-column="0" selection-end-line="239" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/labs/lab3/css/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="207" column="23" lean-forward="false" selection-start-line="207" selection-start-column="23" selection-end-line="207" selection-end-column="23" />
+        <state relative-caret-position="620">
+          <caret line="229" column="1" lean-forward="false" selection-start-line="229" selection-start-column="1" selection-end-line="229" selection-end-column="1" />
           <folding />
         </state>
       </provider>
