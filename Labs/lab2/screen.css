@@ -231,6 +231,14 @@ h1 {
   line-height: 2em;
 }
 
+ol li {
+  padding-top: 1em;
+}
+
+ol li:last-of-type {
+  padding-bottom: 1em;
+}
+
 #personalDataForm {
   display: flex;
   padding: 2.1875em;
@@ -243,6 +251,9 @@ h1 {
   box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
 }
 
+#formFields {
+  margin: 1em 0;
+}
 
 input[type="text"],
 input[type="date"],
@@ -263,10 +274,9 @@ select
   width: 100%;
   display: block;
   outline: none;
-  border: solid black 0.2em;
+  border: solid black 0.1em;
   height: 25px;
   line-height: 25px;
-  font-size: 16px;
   padding: 1em;
   font-family: Georgia, serif;
 }
