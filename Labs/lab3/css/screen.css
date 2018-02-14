@@ -229,6 +229,18 @@ ol li:last-of-type {
   padding-bottom: 1em;
 }
 
+#content {
+  display: flex;
+  padding: 2.1875em;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 1em 0 auto auto;
+  -webkit-box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
+  -moz-box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
+  box-shadow: 2px 4px 16px -5px rgba(0,0,0,0.58);
+}
+
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
